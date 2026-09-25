@@ -1,4 +1,4 @@
-# Arya — Portfolio Site
+ Portfolio Site
 
 A simple, dark-themed personal portfolio built with plain HTML, CSS, and JavaScript. No frameworks, no build step — just open it in a browser.
 
