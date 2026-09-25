@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arya — Backend Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">arya<span>.</span>dev</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="navlinks" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero-text">
+      <div class="kicker">whoami</div>
+      <h1>Arya — backend engineer in training.</h1>
+      <p class="lede">Final-year BCA student focused on backend systems — Python, FastAPI, and the data structures underneath them. Looking for a fresher role where I can go deep, not just ship fast.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">Let's get started <span class="mono">→</span></a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="120" cy="120" r="118" fill="#171C22" stroke="#262D35" stroke-width="1.5"/>
+        <circle cx="120" cy="96" r="34" fill="none" stroke="#55B3AA" stroke-width="2.5"/>
+        <path d="M56 210c6-34 30-52 64-52s58 18 64 52" fill="none" stroke="#E7E9EA" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="logos-wrap wrap">
+    <p class="logos-label mono">Currently learning with</p>
+    <div class="logos-row">
+      <span>Python.org</span>
+      <span>FastAPI Docs</span>
+      <span>LeetCode</span>
+      <span>PostgreSQL</span>
+      <span>Git</span>
+    </div>
+  </div>
+
+  <section id="about" class="wrap">
+    <div class="section-head">
+      <h2>About</h2>
+      <span class="tag">01 — background</span>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>I'm in my final year of a BCA degree, working toward a software engineering role — backend first, with an eye on AI engineering further down the line. Most of my hands-on skill is still being built, so I've picked a narrow, deliberate path rather than spreading thin.</p>
+        <p>Right now that means learning Python properly, understanding data structures and algorithms from the ground up, and getting comfortable with the tools a backend engineer actually uses day to day: databases, Git, and the terminal.</p>
+      </div>
+      <ul class="focus-list">
+        <li><span class="idx">01</span> Consolidating around Python for DSA, backend, and future ML work</li>
+        <li><span class="idx">02</span> Learning FastAPI as the primary backend framework</li>
+        <li><span class="idx">03</span> Studying databases — SQL and MongoDB — from first principles</li>
+        <li><span class="idx">04</span> Getting fluent with Git and the command line</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="stack" class="wrap">
+    <div class="section-head">
+      <h2>Stack</h2>
+      <span class="tag">02 — tools</span>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-item"><div class="label">language</div><div class="name">Python</div></div>
+      <div class="stack-item"><div class="label">framework</div><div class="name">FastAPI</div></div>
+      <div class="stack-item"><div class="label">database</div><div class="name">SQL</div></div>
+      <div class="stack-item"><div class="label">database</div><div class="name">MongoDB</div></div>
+      <div class="stack-item"><div class="label">practice</div><div class="name">DSA</div></div>
+      <div class="stack-item"><div class="label">tooling</div><div class="name">Git</div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <span class="tag">03 — in progress</span>
+    </div>
+
+    <div class="project">
+      <div class="status">building</div>
+      <div>
+        <h3>TaskTrack API</h3>
+        <p>A task-management REST API with user auth, project boards, and due-date reminders. Built to learn request validation, JWT auth, and clean route structure in FastAPI.</p>
+        <div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span></div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="status">building</div>
+      <div>
+        <h3>Library Inventory System</h3>
+        <p>A backend for tracking book stock, borrow/return history, and overdue fines across branches. Used to practice schema design and writing efficient SQL joins.</p>
+        <div class="tags"><span>SQL</span><span>Python</span><span>SQLite</span></div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="status">planned</div>
+      <div>
+        <h3>DSA Visualizer</h3>
+        <p>A small tool that steps through sorting and searching algorithms visually, to reinforce what I'm learning in DSA practice rather than just solving problems in isolation.</p>
+        <div class="tags"><span>Python</span><span>DSA</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap">
+    <div class="contact">
+      <div>
+        <h2>Let's talk.</h2>
+        <p>Open to fresher backend roles — startups and remote preferred. Reach out directly, or find me on the links below.</p>
+      </div>
+      <ul class="contact-links">
+        <li><a href="mailto:arya.dev@example.com">arya.dev@example.com <span class="arrow mono">→</span></a></li>
+        <li><a href="https://github.com/arya-dev">github.com/arya-dev <span class="arrow mono">→</span></a></li>
+        <li><a href="https://linkedin.com/in/arya-dev">linkedin.com/in/arya-dev <span class="arrow mono">→</span></a></li>
+        <li><a href="#">Resume (PDF) <span class="arrow mono">→</span></a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Arya</span>
+  <span>Built with HTML, CSS &amp; JS</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
